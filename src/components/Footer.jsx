@@ -1,5 +1,6 @@
 export default function Footer() {
-  const urlJuego = encodeURIComponent("https:tudominio.com");
+  // Enlace real de su proyecto en producción
+  const urlJuego = encodeURIComponent("https://trainerdle.vercel.app/");
   const textoCompartir = encodeURIComponent(
     "¡Ven a jugar Trainer-dle, el juego diario de personajes Pokémon! ¿Podrás adivinar quién es hoy?",
   );
@@ -43,6 +44,21 @@ export default function Footer() {
             <path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-1.125 0-2.703.323-2.703 1.861v1.67h3.905l-.472 3.667h-3.433v7.98h-4.378z" />
           </svg>
         </a>
+      </div>
+
+      {/* Bloque del Aviso Legal (Disclaimer) integrado correctamente */}
+      <div className="px-4 mt-8 max-w-3xl text-[10px] md:text-xs text-slate-500 leading-relaxed text-center">
+        <p>
+          Trainerdle es una aplicación web no oficial creada por fans con fines
+          estrictamente educativos y sin fines de lucro.
+        </p>
+        <p className="mt-1">
+          Pokémon y todos los nombres de personajes respectivos son marcas
+          registradas y propiedad intelectual de Nintendo, Creatures Inc., Game
+          Freak y The Pokémon Company. Este proyecto no está afiliado, asociado,
+          autorizado, respaldado ni apoyado oficialmente por ninguna de estas
+          entidades.
+        </p>
       </div>
     </footer>
   );
