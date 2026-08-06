@@ -1,5 +1,5 @@
 export default function Footer() {
-  const urlJuego = encodeURIComponent("https://tudominio.com");
+  const urlJuego = encodeURIComponent("https:tudominio.com");
   const textoCompartir = encodeURIComponent(
     "¡Ven a jugar Trainer-dle, el juego diario de personajes Pokémon! ¿Podrás adivinar quién es hoy?",
   );

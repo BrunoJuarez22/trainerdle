@@ -17,7 +17,6 @@ function App() {
   const [mostrarMensaje, setMostrarMensaje] = useState(false);
 
   useEffect(() => {
-    // Llamada segura a tu nuevo servidor de Vercel
     fetch("/api/daily")
       .then((res) => res.json())
       .then((personajeDiario) => {
