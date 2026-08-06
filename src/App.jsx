@@ -4,7 +4,6 @@ import SearchBar from "./components/SearchBar";
 import GameBoard from "./components/GameBoard";
 import ResultModal from "./components/ResultModal";
 import Footer from "./components/Footer";
-import personajesData from "./data/personajes.json";
 
 function App() {
   const [intentos, setIntentos] = useState(() => {
@@ -18,22 +17,24 @@ function App() {
   const [mostrarMensaje, setMostrarMensaje] = useState(false);
 
   useEffect(() => {
-    const fechaInicio = new Date("2026-08-01T00:00:00");
-    const hoy = new Date();
+    // Llamada segura a tu nuevo servidor de Vercel
+    fetch("/api/daily")
+      .then((res) => res.json())
+      .then((personajeDiario) => {
+        setPersonajeSecreto(personajeDiario);
 
-    const diferenciaTiempo = hoy.getTime() - fechaInicio.getTime();
-    const diasPasados = Math.floor(diferenciaTiempo / (1000 * 3600 * 24));
-    const indice = diasPasados % personajesData.length;
-
-    const personajeDiario = personajesData[indice];
-    setPersonajeSecreto(personajeDiario);
-
-    const intentoCorrecto = intentos.some((p) => p.id === personajeDiario.id);
-    if (intentoCorrecto) {
-      setHaGanado(true);
-    } else if (intentos.length >= 5) {
-      setHaPerdido(true);
-    }
+        const intentoCorrecto = intentos.some(
+          (p) => p.id === personajeDiario.id,
+        );
+        if (intentoCorrecto) {
+          setHaGanado(true);
+        } else if (intentos.length >= 5) {
+          setHaPerdido(true);
+        }
+      })
+      .catch((error) =>
+        console.error("Error al conectar con el servidor:", error),
+      );
   }, []);
 
   useEffect(() => {
@@ -66,8 +67,8 @@ function App() {
 
   if (!personajeSecreto)
     return (
-      <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white">
-        Cargando...
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white font-bold text-xl">
+        Cargando servidor...
       </div>
     );
 
@@ -99,9 +100,7 @@ function App() {
         personajeSecreto={personajeSecreto}
         haPerdido={haPerdido}
       />
-
       <Footer />
-
       <ResultModal
         mostrar={mostrarMensaje}
         alCerrar={() => setMostrarMensaje(false)}
