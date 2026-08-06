@@ -1,0 +1,1098 @@
+[
+  {
+    "id": 1,
+    "nombre": "Karen",
+    "region": "Johto",
+    "rol": "Alto Mando",
+    "especialidad": "Siniestro",
+    "genero": "Femenino"
+  },
+  {
+    "id": 2,
+    "nombre": "Drayden",
+    "region": "Unova",
+    "rol": "Líder",
+    "especialidad": "Dragón",
+    "genero": "Masculino"
+  },
+  {
+    "id": 3,
+    "nombre": "Arven",
+    "region": "Paldea",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 4,
+    "nombre": "Bruno",
+    "region": "Kanto",
+    "rol": "Alto Mando",
+    "especialidad": "Lucha",
+    "genero": "Masculino"
+  },
+  {
+    "id": 5,
+    "nombre": "Rika",
+    "region": "Paldea",
+    "rol": "Alto Mando",
+    "especialidad": "Tierra",
+    "genero": "Femenino"
+  },
+  {
+    "id": 6,
+    "nombre": "Blanca",
+    "region": "Johto",
+    "rol": "Líder",
+    "especialidad": "Normal",
+    "genero": "Femenino"
+  },
+  {
+    "id": 7,
+    "nombre": "N",
+    "region": "Unova",
+    "rol": "Rival",
+    "especialidad": "Dragón",
+    "genero": "Masculino"
+  },
+  {
+    "id": 8,
+    "nombre": "Olivia",
+    "region": "Alola",
+    "rol": "Kahuna",
+    "especialidad": "Roca",
+    "genero": "Femenino"
+  },
+  {
+    "id": 9,
+    "nombre": "Wikstrom",
+    "region": "Kalos",
+    "rol": "Alto Mando",
+    "especialidad": "Acero",
+    "genero": "Masculino"
+  },
+  {
+    "id": 10,
+    "nombre": "Milo",
+    "region": "Galar",
+    "rol": "Líder",
+    "especialidad": "Planta",
+    "genero": "Masculino"
+  },
+  {
+    "id": 11,
+    "nombre": "Misty",
+    "region": "Kanto",
+    "rol": "Líder",
+    "especialidad": "Agua",
+    "genero": "Femenino"
+  },
+  {
+    "id": 12,
+    "nombre": "Geeta",
+    "region": "Paldea",
+    "rol": "Campeón",
+    "especialidad": "Mixto",
+    "genero": "Femenino"
+  },
+  {
+    "id": 13,
+    "nombre": "Nanu",
+    "region": "Alola",
+    "rol": "Kahuna",
+    "especialidad": "Siniestro",
+    "genero": "Masculino"
+  },
+  {
+    "id": 14,
+    "nombre": "Kahili",
+    "region": "Alola",
+    "rol": "Alto Mando",
+    "especialidad": "Volador",
+    "genero": "Femenino"
+  },
+  {
+    "id": 15,
+    "nombre": "Shauntal",
+    "region": "Unova",
+    "rol": "Alto Mando",
+    "especialidad": "Fantasma",
+    "genero": "Femenino"
+  },
+  {
+    "id": 16,
+    "nombre": "Sophocles",
+    "region": "Alola",
+    "rol": "Capitán",
+    "especialidad": "Eléctrico",
+    "genero": "Masculino"
+  },
+  {
+    "id": 17,
+    "nombre": "Opal",
+    "region": "Galar",
+    "rol": "Líder",
+    "especialidad": "Hada",
+    "genero": "Femenino"
+  },
+  {
+    "id": 18,
+    "nombre": "Vito",
+    "region": "Hoenn",
+    "rol": "Líder",
+    "especialidad": "Psíquico",
+    "genero": "Masculino"
+  },
+  {
+    "id": 19,
+    "nombre": "Aníbal",
+    "region": "Johto",
+    "rol": "Líder",
+    "especialidad": "Lucha",
+    "genero": "Masculino"
+  },
+  {
+    "id": 20,
+    "nombre": "Aaron",
+    "region": "Sinnoh",
+    "rol": "Alto Mando",
+    "especialidad": "Bicho",
+    "genero": "Masculino"
+  },
+  {
+    "id": 21,
+    "nombre": "Débora",
+    "region": "Johto",
+    "rol": "Líder",
+    "especialidad": "Dragón",
+    "genero": "Femenino"
+  },
+  {
+    "id": 22,
+    "nombre": "Allister",
+    "region": "Galar",
+    "rol": "Líder",
+    "especialidad": "Fantasma",
+    "genero": "Masculino"
+  },
+  {
+    "id": 23,
+    "nombre": "Giovanni",
+    "region": "Kanto",
+    "rol": "Líder",
+    "especialidad": "Tierra",
+    "genero": "Masculino"
+  },
+  {
+    "id": 24,
+    "nombre": "Nívea",
+    "region": "Hoenn",
+    "rol": "Alto Mando",
+    "especialidad": "Hielo",
+    "genero": "Femenino"
+  },
+  {
+    "id": 25,
+    "nombre": "Bea",
+    "region": "Galar",
+    "rol": "Líder",
+    "especialidad": "Lucha",
+    "genero": "Femenino"
+  },
+  {
+    "id": 26,
+    "nombre": "Bertha",
+    "region": "Sinnoh",
+    "rol": "Alto Mando",
+    "especialidad": "Tierra",
+    "genero": "Femenino"
+  },
+  {
+    "id": 27,
+    "nombre": "Plubio",
+    "region": "Hoenn",
+    "rol": "Campeón",
+    "especialidad": "Agua",
+    "genero": "Masculino"
+  },
+  {
+    "id": 28,
+    "nombre": "Alana",
+    "region": "Hoenn",
+    "rol": "Líder",
+    "especialidad": "Volador",
+    "genero": "Femenino"
+  },
+  {
+    "id": 29,
+    "nombre": "Melony",
+    "region": "Galar",
+    "rol": "Líder",
+    "especialidad": "Hielo",
+    "genero": "Femenino"
+  },
+  {
+    "id": 30,
+    "nombre": "Volkner",
+    "region": "Sinnoh",
+    "rol": "Líder",
+    "especialidad": "Eléctrico",
+    "genero": "Masculino"
+  },
+  {
+    "id": 31,
+    "nombre": "Leti",
+    "region": "Hoenn",
+    "rol": "Líder",
+    "especialidad": "Psíquico",
+    "genero": "Femenino"
+  },
+  {
+    "id": 32,
+    "nombre": "Calem",
+    "region": "Kalos",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 33,
+    "nombre": "Cheren",
+    "region": "Unova",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 34,
+    "nombre": "Skyla",
+    "region": "Unova",
+    "rol": "Líder",
+    "especialidad": "Volador",
+    "genero": "Femenino"
+  },
+  {
+    "id": 35,
+    "nombre": "Barry",
+    "region": "Sinnoh",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 36,
+    "nombre": "Leon",
+    "region": "Galar",
+    "rol": "Campeón",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 37,
+    "nombre": "Hop",
+    "region": "Galar",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 38,
+    "nombre": "Cilan",
+    "region": "Unova",
+    "rol": "Líder",
+    "especialidad": "Planta",
+    "genero": "Masculino"
+  },
+  {
+    "id": 39,
+    "nombre": "Lt. Surge",
+    "region": "Kanto",
+    "rol": "Líder",
+    "especialidad": "Eléctrico",
+    "genero": "Masculino"
+  },
+  {
+    "id": 40,
+    "nombre": "Clay",
+    "region": "Unova",
+    "rol": "Líder",
+    "especialidad": "Tierra",
+    "genero": "Masculino"
+  },
+  {
+    "id": 41,
+    "nombre": "Bede",
+    "region": "Galar",
+    "rol": "Rival",
+    "especialidad": "Hada",
+    "genero": "Masculino"
+  },
+  {
+    "id": 42,
+    "nombre": "Katy",
+    "region": "Paldea",
+    "rol": "Líder",
+    "especialidad": "Bicho",
+    "genero": "Femenino"
+  },
+  {
+    "id": 43,
+    "nombre": "Pegaso",
+    "region": "Johto",
+    "rol": "Líder",
+    "especialidad": "Volador",
+    "genero": "Masculino"
+  },
+  {
+    "id": 44,
+    "nombre": "Marshal",
+    "region": "Unova",
+    "rol": "Alto Mando",
+    "especialidad": "Lucha",
+    "genero": "Masculino"
+  },
+  {
+    "id": 45,
+    "nombre": "Gordie",
+    "region": "Galar",
+    "rol": "Líder",
+    "especialidad": "Roca",
+    "genero": "Masculino"
+  },
+  {
+    "id": 46,
+    "nombre": "Elesa",
+    "region": "Unova",
+    "rol": "Líder",
+    "especialidad": "Eléctrico",
+    "genero": "Femenino"
+  },
+  {
+    "id": 47,
+    "nombre": "Grant",
+    "region": "Kalos",
+    "rol": "Líder",
+    "especialidad": "Roca",
+    "genero": "Masculino"
+  },
+  {
+    "id": 48,
+    "nombre": "Olympia",
+    "region": "Kalos",
+    "rol": "Líder",
+    "especialidad": "Psíquico",
+    "genero": "Femenino"
+  },
+  {
+    "id": 49,
+    "nombre": "Flint",
+    "region": "Sinnoh",
+    "rol": "Alto Mando",
+    "especialidad": "Fuego",
+    "genero": "Masculino"
+  },
+  {
+    "id": 50,
+    "nombre": "Siebold",
+    "region": "Kalos",
+    "rol": "Alto Mando",
+    "especialidad": "Agua",
+    "genero": "Masculino"
+  },
+  {
+    "id": 51,
+    "nombre": "Marlon",
+    "region": "Unova",
+    "rol": "Líder",
+    "especialidad": "Agua",
+    "genero": "Masculino"
+  },
+  {
+    "id": 52,
+    "nombre": "Sixto",
+    "region": "Hoenn",
+    "rol": "Alto Mando",
+    "especialidad": "Siniestro",
+    "genero": "Masculino"
+  },
+  {
+    "id": 53,
+    "nombre": "Marnie",
+    "region": "Galar",
+    "rol": "Rival",
+    "especialidad": "Siniestro",
+    "genero": "Femenino"
+  },
+  {
+    "id": 54,
+    "nombre": "Blasco",
+    "region": "Hoenn",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 55,
+    "nombre": "Máximo",
+    "region": "Hoenn",
+    "rol": "Campeón",
+    "especialidad": "Acero",
+    "genero": "Masculino"
+  },
+  {
+    "id": 56,
+    "nombre": "Koga",
+    "region": "Kanto",
+    "rol": "Líder",
+    "especialidad": "Veneno",
+    "genero": "Masculino"
+  },
+  {
+    "id": 57,
+    "nombre": "Aura",
+    "region": "Hoenn",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Femenino"
+  },
+  {
+    "id": 58,
+    "nombre": "Mina",
+    "region": "Alola",
+    "rol": "Capitán",
+    "especialidad": "Hada",
+    "genero": "Femenino"
+  },
+  {
+    "id": 59,
+    "nombre": "Ilima",
+    "region": "Alola",
+    "rol": "Capitán",
+    "especialidad": "Normal",
+    "genero": "Masculino"
+  },
+  {
+    "id": 60,
+    "nombre": "Morti",
+    "region": "Johto",
+    "rol": "Líder",
+    "especialidad": "Fantasma",
+    "genero": "Masculino"
+  },
+  {
+    "id": 61,
+    "nombre": "Roark",
+    "region": "Sinnoh",
+    "rol": "Líder",
+    "especialidad": "Roca",
+    "genero": "Masculino"
+  },
+  {
+    "id": 62,
+    "nombre": "Acerola",
+    "region": "Alola",
+    "rol": "Capitán",
+    "especialidad": "Fantasma",
+    "genero": "Femenino"
+  },
+  {
+    "id": 63,
+    "nombre": "Grusha",
+    "region": "Paldea",
+    "rol": "Líder",
+    "especialidad": "Hielo",
+    "genero": "Masculino"
+  },
+  {
+    "id": 64,
+    "nombre": "Byron",
+    "region": "Sinnoh",
+    "rol": "Líder",
+    "especialidad": "Acero",
+    "genero": "Masculino"
+  },
+  {
+    "id": 65,
+    "nombre": "Hau",
+    "region": "Alola",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 66,
+    "nombre": "Ramos",
+    "region": "Kalos",
+    "rol": "Líder",
+    "especialidad": "Planta",
+    "genero": "Masculino"
+  },
+  {
+    "id": 67,
+    "nombre": "Drasna",
+    "region": "Kalos",
+    "rol": "Alto Mando",
+    "especialidad": "Dragón",
+    "genero": "Femenino"
+  },
+  {
+    "id": 68,
+    "nombre": "Hapu",
+    "region": "Alola",
+    "rol": "Kahuna",
+    "especialidad": "Tierra",
+    "genero": "Femenino"
+  },
+  {
+    "id": 69,
+    "nombre": "Raihan",
+    "region": "Galar",
+    "rol": "Líder",
+    "especialidad": "Dragón",
+    "genero": "Masculino"
+  },
+  {
+    "id": 70,
+    "nombre": "Kiawe",
+    "region": "Alola",
+    "rol": "Capitán",
+    "especialidad": "Fuego",
+    "genero": "Masculino"
+  },
+  {
+    "id": 71,
+    "nombre": "Gladion",
+    "region": "Alola",
+    "rol": "Rival",
+    "especialidad": "Siniestro",
+    "genero": "Masculino"
+  },
+  {
+    "id": 72,
+    "nombre": "Wulfric",
+    "region": "Kalos",
+    "rol": "Líder",
+    "especialidad": "Hielo",
+    "genero": "Masculino"
+  },
+  {
+    "id": 73,
+    "nombre": "Valerie",
+    "region": "Kalos",
+    "rol": "Líder",
+    "especialidad": "Hada",
+    "genero": "Femenino"
+  },
+  {
+    "id": 74,
+    "nombre": "Brassius",
+    "region": "Paldea",
+    "rol": "Líder",
+    "especialidad": "Planta",
+    "genero": "Masculino"
+  },
+  {
+    "id": 75,
+    "nombre": "Diantha",
+    "region": "Kalos",
+    "rol": "Campeón",
+    "especialidad": "Mixto",
+    "genero": "Femenino"
+  },
+  {
+    "id": 76,
+    "nombre": "Ryme",
+    "region": "Paldea",
+    "rol": "Líder",
+    "especialidad": "Fantasma",
+    "genero": "Femenino"
+  },
+  {
+    "id": 77,
+    "nombre": "Plata",
+    "region": "Johto",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 78,
+    "nombre": "Bianca",
+    "region": "Unova",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Femenino"
+  },
+  {
+    "id": 79,
+    "nombre": "Fantina",
+    "region": "Sinnoh",
+    "rol": "Líder",
+    "especialidad": "Fantasma",
+    "genero": "Femenino"
+  },
+  {
+    "id": 80,
+    "nombre": "Clemont",
+    "region": "Kalos",
+    "rol": "Líder",
+    "especialidad": "Eléctrico",
+    "genero": "Masculino"
+  },
+  {
+    "id": 81,
+    "nombre": "Dracón",
+    "region": "Hoenn",
+    "rol": "Alto Mando",
+    "especialidad": "Dragón",
+    "genero": "Masculino"
+  },
+  {
+    "id": 82,
+    "nombre": "Nemona",
+    "region": "Paldea",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Femenino"
+  },
+  {
+    "id": 83,
+    "nombre": "Agatha",
+    "region": "Kanto",
+    "rol": "Alto Mando",
+    "especialidad": "Fantasma",
+    "genero": "Femenino"
+  },
+  {
+    "id": 84,
+    "nombre": "Mallow",
+    "region": "Alola",
+    "rol": "Capitán",
+    "especialidad": "Planta",
+    "genero": "Femenino"
+  },
+  {
+    "id": 85,
+    "nombre": "Antón",
+    "region": "Johto",
+    "rol": "Líder",
+    "especialidad": "Bicho",
+    "genero": "Masculino"
+  },
+  {
+    "id": 86,
+    "nombre": "Grimsley",
+    "region": "Unova",
+    "rol": "Alto Mando",
+    "especialidad": "Siniestro",
+    "genero": "Masculino"
+  },
+  {
+    "id": 87,
+    "nombre": "Burgh",
+    "region": "Unova",
+    "rol": "Líder",
+    "especialidad": "Bicho",
+    "genero": "Masculino"
+  },
+  {
+    "id": 88,
+    "nombre": "Sabrina",
+    "region": "Kanto",
+    "rol": "Líder",
+    "especialidad": "Psíquico",
+    "genero": "Femenino"
+  },
+  {
+    "id": 89,
+    "nombre": "Galano",
+    "region": "Hoenn",
+    "rol": "Líder",
+    "especialidad": "Agua",
+    "genero": "Masculino"
+  },
+  {
+    "id": 90,
+    "nombre": "Rose",
+    "region": "Galar",
+    "rol": "Antagonista",
+    "especialidad": "Acero",
+    "genero": "Masculino"
+  },
+  {
+    "id": 91,
+    "nombre": "Maylene",
+    "region": "Sinnoh",
+    "rol": "Líder",
+    "especialidad": "Lucha",
+    "genero": "Femenino"
+  },
+  {
+    "id": 92,
+    "nombre": "Crasher Wake",
+    "region": "Sinnoh",
+    "rol": "Líder",
+    "especialidad": "Agua",
+    "genero": "Masculino"
+  },
+  {
+    "id": 93,
+    "nombre": "Azul",
+    "region": "Kanto",
+    "rol": "Campeón",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 94,
+    "nombre": "Candice",
+    "region": "Sinnoh",
+    "rol": "Líder",
+    "especialidad": "Hielo",
+    "genero": "Femenino"
+  },
+  {
+    "id": 95,
+    "nombre": "Kofu",
+    "region": "Paldea",
+    "rol": "Líder",
+    "especialidad": "Agua",
+    "genero": "Masculino"
+  },
+  {
+    "id": 96,
+    "nombre": "Rojo",
+    "region": "Kanto",
+    "rol": "Campeón",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 97,
+    "nombre": "Molayne",
+    "region": "Alola",
+    "rol": "Alto Mando",
+    "especialidad": "Acero",
+    "genero": "Masculino"
+  },
+  {
+    "id": 98,
+    "nombre": "Lillie",
+    "region": "Alola",
+    "rol": "Aliada",
+    "especialidad": "Mixto",
+    "genero": "Femenino"
+  },
+  {
+    "id": 99,
+    "nombre": "Iono",
+    "region": "Paldea",
+    "rol": "Líder",
+    "especialidad": "Eléctrico",
+    "genero": "Femenino"
+  },
+  {
+    "id": 100,
+    "nombre": "Yasmina",
+    "region": "Johto",
+    "rol": "Líder",
+    "especialidad": "Acero",
+    "genero": "Femenino"
+  },
+  {
+    "id": 101,
+    "nombre": "Kabu",
+    "region": "Galar",
+    "rol": "Líder",
+    "especialidad": "Fuego",
+    "genero": "Masculino"
+  },
+  {
+    "id": 102,
+    "nombre": "Gardenia",
+    "region": "Sinnoh",
+    "rol": "Líder",
+    "especialidad": "Planta",
+    "genero": "Femenino"
+  },
+  {
+    "id": 103,
+    "nombre": "Cynthia",
+    "region": "Sinnoh",
+    "rol": "Campeón",
+    "especialidad": "Mixto",
+    "genero": "Femenino"
+  },
+  {
+    "id": 104,
+    "nombre": "Piers",
+    "region": "Galar",
+    "rol": "Líder",
+    "especialidad": "Siniestro",
+    "genero": "Masculino"
+  },
+  {
+    "id": 105,
+    "nombre": "Fredo",
+    "region": "Johto",
+    "rol": "Líder",
+    "especialidad": "Hielo",
+    "genero": "Masculino"
+  },
+  {
+    "id": 106,
+    "nombre": "Tulip",
+    "region": "Paldea",
+    "rol": "Líder",
+    "especialidad": "Psíquico",
+    "genero": "Femenino"
+  },
+  {
+    "id": 107,
+    "nombre": "Hala",
+    "region": "Alola",
+    "rol": "Kahuna",
+    "especialidad": "Lucha",
+    "genero": "Masculino"
+  },
+  {
+    "id": 108,
+    "nombre": "Brock",
+    "region": "Kanto",
+    "rol": "Líder",
+    "especialidad": "Roca",
+    "genero": "Masculino"
+  },
+  {
+    "id": 109,
+    "nombre": "Kukui",
+    "region": "Alola",
+    "rol": "Campeón",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 110,
+    "nombre": "Poppy",
+    "region": "Paldea",
+    "rol": "Alto Mando",
+    "especialidad": "Hada",
+    "genero": "Femenino"
+  },
+  {
+    "id": 111,
+    "nombre": "Viola",
+    "region": "Kalos",
+    "rol": "Líder",
+    "especialidad": "Bicho",
+    "genero": "Femenino"
+  },
+  {
+    "id": 112,
+    "nombre": "Hassel",
+    "region": "Paldea",
+    "rol": "Alto Mando",
+    "especialidad": "Dragón",
+    "genero": "Masculino"
+  },
+  {
+    "id": 113,
+    "nombre": "Penny",
+    "region": "Paldea",
+    "rol": "Rival",
+    "especialidad": "Acero",
+    "genero": "Femenino"
+  },
+  {
+    "id": 114,
+    "nombre": "Lucian",
+    "region": "Sinnoh",
+    "rol": "Alto Mando",
+    "especialidad": "Psíquico",
+    "genero": "Masculino"
+  },
+  {
+    "id": 115,
+    "nombre": "Caitlin",
+    "region": "Unova",
+    "rol": "Alto Mando",
+    "especialidad": "Psíquico",
+    "genero": "Femenino"
+  },
+  {
+    "id": 116,
+    "nombre": "Serena",
+    "region": "Kalos",
+    "rol": "Rival",
+    "especialidad": "Mixto",
+    "genero": "Femenino"
+  },
+  {
+    "id": 117,
+    "nombre": "Malva",
+    "region": "Kalos",
+    "rol": "Alto Mando",
+    "especialidad": "Fuego",
+    "genero": "Femenino"
+  },
+  {
+    "id": 118,
+    "nombre": "Lana",
+    "region": "Alola",
+    "rol": "Capitán",
+    "especialidad": "Agua",
+    "genero": "Femenino"
+  },
+  {
+    "id": 119,
+    "nombre": "Petra",
+    "region": "Hoenn",
+    "rol": "Líder",
+    "especialidad": "Roca",
+    "genero": "Femenino"
+  },
+  {
+    "id": 120,
+    "nombre": "Iris",
+    "region": "Unova",
+    "rol": "Campeón",
+    "especialidad": "Dragón",
+    "genero": "Femenino"
+  },
+  {
+    "id": 121,
+    "nombre": "Larry",
+    "region": "Paldea",
+    "rol": "Líder",
+    "especialidad": "Normal",
+    "genero": "Masculino"
+  },
+  {
+    "id": 122,
+    "nombre": "Korrina",
+    "region": "Kalos",
+    "rol": "Líder",
+    "especialidad": "Lucha",
+    "genero": "Femenino"
+  },
+  {
+    "id": 123,
+    "nombre": "Roxie",
+    "region": "Unova",
+    "rol": "Líder",
+    "especialidad": "Veneno",
+    "genero": "Femenino"
+  },
+  {
+    "id": 124,
+    "nombre": "Norman",
+    "region": "Hoenn",
+    "rol": "Líder",
+    "especialidad": "Normal",
+    "genero": "Masculino"
+  },
+  {
+    "id": 125,
+    "nombre": "Erico",
+    "region": "Hoenn",
+    "rol": "Líder",
+    "especialidad": "Eléctrico",
+    "genero": "Masculino"
+  },
+  {
+    "id": 126,
+    "nombre": "Lance",
+    "region": "Kanto",
+    "rol": "Alto Mando",
+    "especialidad": "Dragón",
+    "genero": "Masculino"
+  },
+  {
+    "id": 127,
+    "nombre": "Erika",
+    "region": "Kanto",
+    "rol": "Líder",
+    "especialidad": "Planta",
+    "genero": "Femenino"
+  },
+  {
+    "id": 128,
+    "nombre": "Lorelei",
+    "region": "Kanto",
+    "rol": "Alto Mando",
+    "especialidad": "Hielo",
+    "genero": "Femenino"
+  },
+  {
+    "id": 129,
+    "nombre": "Nessa",
+    "region": "Galar",
+    "rol": "Líder",
+    "especialidad": "Agua",
+    "genero": "Femenino"
+  },
+  {
+    "id": 130,
+    "nombre": "Mento",
+    "region": "Johto",
+    "rol": "Alto Mando",
+    "especialidad": "Psíquico",
+    "genero": "Masculino"
+  },
+  {
+    "id": 131,
+    "nombre": "Marcial",
+    "region": "Hoenn",
+    "rol": "Líder",
+    "especialidad": "Lucha",
+    "genero": "Masculino"
+  },
+  {
+    "id": 132,
+    "nombre": "Fátima",
+    "region": "Hoenn",
+    "rol": "Alto Mando",
+    "especialidad": "Fantasma",
+    "genero": "Femenino"
+  },
+  {
+    "id": 133,
+    "nombre": "Lenora",
+    "region": "Unova",
+    "rol": "Líder",
+    "especialidad": "Normal",
+    "genero": "Femenino"
+  },
+  {
+    "id": 134,
+    "nombre": "Brycen",
+    "region": "Unova",
+    "rol": "Líder",
+    "especialidad": "Hielo",
+    "genero": "Masculino"
+  },
+  {
+    "id": 135,
+    "nombre": "Alder",
+    "region": "Unova",
+    "rol": "Campeón",
+    "especialidad": "Mixto",
+    "genero": "Masculino"
+  },
+  {
+    "id": 136,
+    "nombre": "Blaine",
+    "region": "Kanto",
+    "rol": "Líder",
+    "especialidad": "Fuego",
+    "genero": "Masculino"
+  },
+  {
+    "id": 137,
+    "nombre": "Candela",
+    "region": "Hoenn",
+    "rol": "Líder",
+    "especialidad": "Fuego",
+    "genero": "Femenino"
+  }
+]
