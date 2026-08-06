@@ -1,75 +1,60 @@
 import { useState } from "react";
 import personajesData from "../data/personajes.json";
 
-
 export default function SearchBar({ onSeleccionarPersonaje, deshabilitado }) {
   const [busqueda, setBusqueda] = useState("");
   const [sugerencias, setSugerencias] = useState([]);
-  const [mostrarMenu, setMostrarMenu] = useState(false);
 
-  const manejarBusqueda = (e) => {
-    const texto = e.target.value;
-    setBusqueda(texto);
-
-    if (texto.trim().length > 0) {
+  const manejarCambio = (e) => {
+    const valor = e.target.value;
+    setBusqueda(valor);
+    if (valor.length > 0) {
       const filtrados = personajesData.filter((p) =>
-        p.nombre.toLowerCase().includes(texto.toLowerCase()),
+        p.nombre.toLowerCase().includes(valor.toLowerCase()),
       );
       setSugerencias(filtrados);
-      setMostrarMenu(true);
     } else {
       setSugerencias([]);
-      setMostrarMenu(false);
     }
   };
 
-  const manejarSeleccion = (personaje) => {
+  const seleccionar = (personaje) => {
     onSeleccionarPersonaje(personaje);
     setBusqueda("");
-    setMostrarMenu(false);
+    setSugerencias([]);
   };
 
   return (
-    <div className="w-full max-w-md relative z-20">
+    // Contenedor principal con ancho máximo adaptativo
+    <div className="w-full max-w-md mx-auto relative z-20 mt-4 mb-6 px-2">
       <input
         type="text"
-        placeholder={
-          deshabilitado
-            ? "¡Juego terminado!"
-            : "Escribe un personaje (ej. Cynthia)..."
-        }
         value={busqueda}
-        onChange={manejarBusqueda}
-        disabled={deshabilitado} 
-        className={`w-full bg-slate-800 border-2 rounded-xl py-3 px-4 text-white text-lg focus:outline-none transition-all shadow-lg placeholder-slate-500 
-          ${deshabilitado ? "border-slate-700 opacity-50 cursor-not-allowed" : "border-slate-700 focus:border-red-500 focus:ring-1 focus:ring-red-500"}`}
+        onChange={manejarCambio}
+        disabled={deshabilitado}
+        placeholder={
+          deshabilitado ? "Juego terminado" : "Escribe un personaje..."
+        }
+        // Clases optimizadas para móvil y modo oscuro
+        className="w-full px-4 py-3 bg-slate-800 text-slate-100 border border-slate-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-slate-400 text-lg shadow-md transition-all disabled:opacity-50 disabled:cursor-not-allowed"
       />
 
-      {mostrarMenu && sugerencias.length > 0 && !deshabilitado && (
-        <ul className="absolute w-full mt-2 bg-slate-800 border border-slate-700 rounded-xl shadow-2xl overflow-hidden max-h-60 overflow-y-auto">
+      {sugerencias.length > 0 && (
+        <ul className="absolute w-full left-0 mt-2 bg-slate-800 border border-slate-600 rounded-xl shadow-2xl max-h-56 overflow-y-auto z-30 divide-y divide-slate-700">
           {sugerencias.map((personaje) => (
             <li
               key={personaje.id}
-              onClick={() => manejarSeleccion(personaje)}
-              className="px-4 py-3 text-slate-200 hover:bg-slate-700 hover:text-white cursor-pointer transition-colors border-b border-slate-700/50 last:border-none"
+              onClick={() => seleccionar(personaje)}
+              // Área de clic amplia y cómoda para el pulgar
+              className="px-4 py-3 hover:bg-slate-700 cursor-pointer flex items-center transition-colors"
             >
-              {personaje.nombre}{" "}
-              <span className="text-slate-500 text-sm ml-2">
-                ({personaje.region})
+              <span className="font-medium text-slate-200">
+                {personaje.nombre}
               </span>
             </li>
           ))}
         </ul>
       )}
-
-      {mostrarMenu &&
-        sugerencias.length === 0 &&
-        busqueda.length > 0 &&
-        !deshabilitado && (
-          <div className="absolute w-full mt-2 bg-slate-800 border border-slate-700 rounded-xl shadow-2xl px-4 py-3 text-slate-400">
-            No se encontró ningún personaje.
-          </div>
-        )}
     </div>
   );
 }
