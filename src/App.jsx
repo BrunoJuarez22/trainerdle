@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/next";
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
 import GameBoard from "./components/GameBoard";
