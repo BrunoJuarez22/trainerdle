@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
 import GameBoard from "./components/GameBoard";
@@ -108,6 +108,9 @@ function App() {
         cantidadIntentos={intentos.length}
         haGanado={haGanado}
       />
+
+      {}
+      <Analytics />
     </div>
   );
 }
