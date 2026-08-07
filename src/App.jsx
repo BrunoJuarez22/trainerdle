@@ -8,11 +8,21 @@ import Footer from "./components/Footer";
 
 function App() {
   const [intentos, setIntentos] = useState(() => {
-    const guardados = window.localStorage.getItem("pokeWordleIntentos");
-    return guardados ? JSON.parse(guardados) : [];
-  });
-  const [personajeSecreto, setPersonajeSecreto] = useState(null);
+    const hoy = new Date().toDateString();
+    const guardados = window.localStorage.getItem("pokeWordleData");
 
+    if (guardados) {
+      const datos = JSON.parse(guardados);
+      if (datos.fecha === hoy) {
+        return datos.intentos;
+      }
+    }
+
+    window.localStorage.removeItem("pokeWordleIntentos");
+    return [];
+  });
+
+  const [personajeSecreto, setPersonajeSecreto] = useState(null);
   const [haGanado, setHaGanado] = useState(false);
   const [haPerdido, setHaPerdido] = useState(false);
   const [mostrarMensaje, setMostrarMensaje] = useState(false);
@@ -38,7 +48,14 @@ function App() {
   }, []);
 
   useEffect(() => {
-    window.localStorage.setItem("pokeWordleIntentos", JSON.stringify(intentos));
+    const hoy = new Date().toDateString();
+    window.localStorage.setItem(
+      "pokeWordleData",
+      JSON.stringify({
+        fecha: hoy,
+        intentos: intentos,
+      }),
+    );
   }, [intentos]);
 
   const manejarNuevoIntento = (personajeSeleccionado) => {
@@ -109,7 +126,6 @@ function App() {
         haGanado={haGanado}
       />
 
-      {}
       <Analytics />
     </div>
   );
